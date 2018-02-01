@@ -6,7 +6,7 @@ jdk:
 sudo: false
 
 install:
-  - mvn clean 
+  - mvn  clean 
 
 script:
   - mvn verify 
