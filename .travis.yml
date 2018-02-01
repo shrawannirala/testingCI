@@ -6,10 +6,10 @@ jdk:
 sudo: false
 
 install:
-  - mvn clean --settings=settings.xml
+  - mvn clean 
 
 script:
-  - mvn verify --settings=settings.xml
+  - mvn verify 
 
 cache:
   apt: true
