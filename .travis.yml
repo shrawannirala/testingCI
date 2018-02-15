@@ -11,6 +11,9 @@ install:
 script:
   - mvn verify 
 
+after_success:
+  - mvn coveralls:report --settings=settings.xml
+
 cache:
   apt: true
   directories:
