@@ -14,7 +14,7 @@ script:
 after_success:
   body='{
 "request": {
-"branch":"master"
+"branch" : "master"
 }}'
 
 curl -s -X POST \
